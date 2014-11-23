@@ -101,9 +101,9 @@ Following the instructions given in the project's instroduction , the following 
 
 The sequence of operantions goes as follow 
 
-- 1. Create one R script called run_analysis
+* Create one R script called run_analysis
 
-- 2. Merges the training and the test sets to create one data set.
+* Merges the training and the test sets to create one data set.
 
 - read X_test.txt
 - read y test.txt
@@ -119,23 +119,22 @@ The sequence of operantions goes as follow
 - Set activity labels in ytest and ytrain data using index activities labes
 - getting  test data  and train data all together 
 
-- 3. Extracts only the measurements on the mean and standard deviation for each measurement. 
+* Extracts only the measurements on the mean and standard deviation for each measurement. 
 
-- Uses descriptive activity names to name the activities in the data set.
+* Use descriptive activity names to name the activities in the data set with the following criteria:
 
-- criteria:
-a) All lower case when posible
-b) not duplicated
-c) not have underscores or dots or white spaces
+- All lower case when posible
+- Not duplicated
+- Not have underscores or dots or white spaces
 
 
-- 4. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Set new tidy data set 
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Set new tidy data set 
 
-- 5. write new tidy data set
+* Write new tidy data set
 
 
 ---------------------------------------------
-output of this Project
+Output of this Project
 ---------------------------------------------
 
 The output of this project will be an independent tidy data set with the average of each variable for each activity and each subject.
